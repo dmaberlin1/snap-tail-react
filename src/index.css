@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none
+}
+
+body{
+    background-color: hsl(0,0%,98%);
+    font-family: 'Ubuntu',sans-serif;
+    overflow-y: hidden;
+}
+
+svg{
+    display: flex;
+    align-items: center;
+}
