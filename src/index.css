@@ -14,7 +14,7 @@
 body{
     background-color: hsl(0,0%,98%);
     font-family: 'Ubuntu',sans-serif;
-    overflow-y: hidden;
+    /*overflow-y: hidden;*/
 }
 
 svg{
